@@ -1,0 +1,24 @@
+{
+  "name": "qahomeworkwiki",
+  "version": "1.0.0",
+  "description": "This holds all of the exercises for the Devmountain Quality Assurance course. Instructions and solutions can be found in each units folder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.4",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@types/selenium-webdriver": "^4.1.25",
+    "chromedriver": "^127.0.3",
+    "geckodriver": "^4.4.2",
+    "selenium-webdriver": "^4.23.0"
+  }
+}

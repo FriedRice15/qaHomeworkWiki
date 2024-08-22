@@ -3,17 +3,32 @@ describe("Testing the calculator", () => {
       expect(calculator.add(2, 50)).toBe(52);
     });
     test("Addition works", () => {
-      expect(true).toBeTruthy();
+      expect(calculator.add(1, 2)).toBe(3);
     });
     test("Subtraction works", () => {
-      expect(true).toBeTruthy();
+      expect(calculator.subtract(2, 1)).toBe(1);
     });
     test("Multiplication works", () => {
-      expect(true).toBeTruthy();
+      expect(calculator.multiply(1, 2)).toBe(2);
     });
     test("Division works", () => {
-      expect(true).toBeTruthy();
+      expect(calculator.divide(2, 1)).toBe(2);
     });
+    test("Equals", () => {
+      let hello: string = "hello";
+      let helloTwo: string = "hello";
+      expect(hello).toEqual(helloTwo);
+    });
+    test("Greater Than", () => {
+      let firstNumber: number = 2;
+      let secondNumber: number = 20;
+      expect(secondNumber).toBeGreaterThan(firstNumber);
+    });
+    test("Less Than", () => {
+      let numberOne: number = 20;
+      let numberTwo: number = 2;
+      expect(numberTwo).toBeLessThan(numberOne);
+    })
     describe("Stretch Goals", () => {
       test("(2+2)/4 == 1", () => {
         expect(calculator.divide(calculator.add(2, 2), 4)).toBe(1);
