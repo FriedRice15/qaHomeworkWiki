@@ -3,7 +3,7 @@ import {By, until, WebDriver, WebElement} from 'selenium-webdriver';
 export class SpecPage {
     driver: WebDriver; 
     url: string = 'https://www.google.com/';
-    searchBar: By = By.id('RNNXgb');
+    searchBar: By = By.id('APjFqb');
     results: By = By.id('a4bIc');
 
     constructor(driver:WebDriver) {
